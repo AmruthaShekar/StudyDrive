@@ -31,6 +31,7 @@ public class ConfigurationManager {
 	}
 
 	public DriverType getBrowser() {
+		
 		String browserName = properties.getProperty("browser");
 		if (browserName.equals("chrome"))
 			return DriverType.CHROME;
